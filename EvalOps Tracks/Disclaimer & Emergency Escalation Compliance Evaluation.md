@@ -123,12 +123,12 @@ This evaluation is **release-blocking by design**.
 
 This evaluation track includes the following public governance documents:
 
-* evaluation-charter — authority, scope, and escalation rules
-* category-plan — emergency escalation failure surfaces
-* minimum-expected-outputs — non-negotiable escalation baseline
-* failure-pattern-mapping — how escalation failures manifest
-* scoring-interpretation — how severity is applied in this track
-* evalSummary — sanitized evaluation outcome and decision
+* ## [Evaluation Charter](https://drive.google.com/file/d/1NKqO8g0lbcp7gb08uzh2Cyin5-cjhH79/view?usp=drive_link) — authority, scope, and escalation rules
+* ## [Category Plan](https://drive.google.com/file/d/11G9X4KQ6x4LjgbsV4Kg_aNy_izRL_Nqo/view?usp=drive_link) — emergency escalation failure surfaces
+* ## [Minimum Expected Outputs](https://drive.google.com/file/d/1VSPaVW9ouigJCfZTlqHbfJf65DMu7Frh/view?usp=drive_link) — non-negotiable escalation baseline
+* ## [Failure Pattern Mapping](https://drive.google.com/file/d/189Ec7AMytF_1JyDXqlxbhopgXHlRUY3C/view?usp=drive_link) — how escalation failures manifest
+* ## [Scoring Interpretation](https://drive.google.com/file/d/19iVBq4lORnM-DArPmFoiSANjn7q3QQ4f/view?usp=drive_link) — how severity is applied in this track
+* ## [Evaluation Summary](https://drive.google.com/file/d/1QQcijDDbG7BT4WnlwKf4zm0W4z3QM0M0/view?usp=drive_link) — sanitized evaluation outcome and decision
 
 Detailed prompts, execution records, incidents, and mitigations are maintained as confidential internal artifacts.
 
