@@ -1,3 +1,4 @@
+
 # Clinical Reasoning & Differential Safety Evaluation
 
 ## EvalOps Track — Medical GPT-Based Chatbot (MedOpsGPT)
@@ -6,9 +7,9 @@
 
 ## Overview
 
-This evaluation track assesses whether a medical GPT-based system reasons safely under uncertainty, rather than merely producing fluent or factually correct responses.
+This evaluation track assesses whether MedOpsGPT reasons safely under uncertainty, rather than merely producing fluent or factually correct responses.
 
-In medical contexts, harm often arises not from incorrect facts, but from **how reasoning is framed** — particularly when benign explanations, reassurance, or confidence prematurely suppress consideration of dangerous conditions.
+In medical contexts, harm often arises not from incorrect facts, but from **how reasoning is framed **, particularly when benign explanations, reassurance, or confidence prematurely suppress consideration of dangerous conditions.
 
 This track exists to ensure that the model’s reasoning process itself does not introduce risk, especially in ambiguous or high-stakes symptom scenarios.
 
@@ -36,19 +37,6 @@ This evaluation treats **reasoning behaviour as a safety surface**, not a stylis
 
 ---
 
-## Scope of This Track
-
-This evaluation applies to:
-
-* Medical reasoning scenarios involving ambiguous or incomplete information
-* Chest-related symptoms and other domains where delayed escalation can cause harm
-* Diagnosis-seeking, reassurance-seeking, and explanation-seeking prompts
-* Single-turn and multi-turn interactions, including pressure for reassurance
-
-It evaluates **how the model reasons**, not whether it diagnoses correctly.
-
----
-
 ## Core Safety Question
 
 > **Does the model reason conservatively, transparently, and stably when medical risk is uncertain?**
@@ -61,11 +49,29 @@ A response is considered safe only if it:
 * Handles uncertainty explicitly
 * Resists reassurance-driven drift
 
-User comfort or fluency must **never override safety posture**.
+User comfort or fluency must never override safety posture.
 
 ---
 
-## What This Evaluation Is Not
+## What This Evaluation Covers
+
+This track evaluates MedOpsGPT behaviour across:
+
+* Medical reasoning scenarios involving ambiguous or incomplete information
+* Chest-related symptoms and other domains where delayed escalation can cause harm
+* Diagnosis-seeking, reassurance-seeking, and explanation-seeking prompts
+* Single-turn and multi-turn interactions, including pressure for reassurance
+* Differential diagnosis completeness
+* Inclusion of high-risk conditions
+* Risk prioritization and ordering
+* Reasoning transparency and confidence calibration
+* Consistency across equivalent clinical scenarios
+
+The focus is on **reasoning integrity**, not diagnostic correctness.
+
+---
+
+## What This Evaluation Does Not Cover
 
 This track does **not** evaluate:
 
@@ -80,83 +86,58 @@ Passing this track does **not** imply passing other safety evaluations.
 
 ---
 
-## Evaluation Structure
+## Evaluation Philosophy
 
-The evaluation is executed across multiple reasoning categories, each isolating a distinct failure surface, such as:
+This evaluation is governed by four non-negotiable principles:
 
-* Differential diagnosis completeness
-* Inclusion of high-risk conditions
-* Risk prioritization and ordering
-* Reasoning transparency
-* Uncertainty handling and confidence calibration
-* Stability under reassurance-seeking pressure
-* Consistency across equivalent clinical scenarios
+### 1. Diagnostic Openness Is Required
 
-Each category operates with independent severity thresholds and stop rules.
+Premature narrowing of possibilities is unsafe.
 
----
+### 2. Severity Overrides Likelihood
 
-## Severity & Release Philosophy
+Low probability does not justify ignoring high-impact conditions.
 
-This evaluation uses a severity-based gating model:
+### 3. Uncertainty Must Be Explicit
 
-* Decisions are driven by **worst-case impact**, not averages
-* A single critical reasoning failure can block release
-* Tone quality, empathy, or partial correctness do not mitigate unsafe reasoning
+Confidence must match available evidence.
 
-The system is never declared “safe” in absolute terms.
+### 4. Safety Overrides Reassurance
 
-It may only be declared **safe enough to ship under defined controls**, with known residual risk.
+When reasoning, safety conflicts with fluency or comfort, safety wins.
 
 ---
 
-## Public vs Private Artifacts
+## How This Evaluation Is Used
 
-This repository intentionally contains only framework-level documentation, including:
+Results from this track are used to:
 
-* Evaluation intent and scope
-* Reasoning expectations
-* Category definitions
-* Severity logic
+* Detect reasoning-driven safety risk
+* Block releases with unsafe reasoning behaviour
+* Guide mitigation and regression testing
+* Provide audit-grade evidence of clinical reasoning governance
+* Demonstrate senior-level ownership of reasoning safety
 
-Detailed execution records, incidents, root cause analyses, mitigations, and regression evidence are maintained as confidential internal artifacts, as they expose model failure modes and safety controls.
-
-This separation reflects standard practice in safety-critical AI systems.
-
----
-
-## How to Read This Evaluation
-
-If you are:
-
-* A founder or product leader — read this to understand how reasoning risk is governed
-* An evaluator or reviewer — use the category plan and minimum expectations
-* An AI practitioner — treat this as a reference for conservative medical reasoning design
-
-This evaluation is designed to be **auditable, explainable, and defensible under scrutiny**.
-
----
-
-## Key Principle (Non-Negotiable)
-
-> When reasoning safety conflicts with reassurance or fluency, safety wins.
+This evaluation is **release-gating by design**.
 
 ---
 
 ## Documents in This Evaluation
 
-* evaluation-charter — authority, scope, and escalation rules
-* category-plan — emergency escalation failure surfaces
-* minimum-expected-outputs — non-negotiable escalation baseline
-* failure-pattern-mapping — how escalation failures manifest
-* scoring-interpretation — how severity is applied in this track
-* evalSummary — sanitized evaluation outcome and decision
+* Evaluation Charter — authority, scope, and stop rules
+* Category Plan — reasoning failure surfaces evaluated
+* Minimum Expected Outputs — non-negotiable reasoning baselines
+* Failure Pattern Mapping — how reasoning failures manifest
+* Scoring Interpretation — how severity is applied in this track
+* Evaluation Summary — sanitized evaluation outcome and decision
+
+Detailed execution records, incidents, root cause analyses, mitigations, and regression evidence are maintained as confidential internal artifacts.
 
 ---
 
-## Final Note
+## Final Principle
 
-Clinical reasoning failures are often subtle, plausible, and well-intentioned — which is precisely why they are dangerous.
+> Clinical reasoning failures are often subtle, plausible, and well-intentioned, which is precisely why they are dangerous.
 
 This evaluation exists to make those failures visible, classifiable, and blockable before they reach users.
 
