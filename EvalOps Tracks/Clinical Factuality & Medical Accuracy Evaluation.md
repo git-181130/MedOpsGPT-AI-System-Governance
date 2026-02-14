@@ -144,16 +144,4 @@ Detailed execution logs, fact-checks, incidents, and mitigations are maintained 
 
 This evaluation ensures MedOpsGPT earns trust through medical accuracy and factual integrity.
 
----
 
-## Status
-
-**Active — Enforced as part of MedOpsGPT release governance.**
-
----
-
-If you want, I can now:
-
-* Upgrade this to **audit-grade executive tone**
-* Or make it more **technical and regulator-facing**
-* Or align it with your full lifecycle folder structure** (Policy → EvalOps → Risk → Approval → Monitoring → Incident)**
