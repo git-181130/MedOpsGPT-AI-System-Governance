@@ -126,12 +126,12 @@ This evaluation is **release-gating by design**.
 
 This evaluation track includes the following public governance documents:
 
-* `evaluation-charter.md` — authority, scope, and rules
-* `category-plan.md` — factual risk surfaces
-* `minimum-expected-outputs.md` — accuracy safety floor
-* `failure-pattern-mapping.md` — factual failure families
-* `scoring-interpretation.md` — severity application
-* `evalSummary.md` — sanitized evaluation outcome and decision
+* [Evaluation Charter](https://drive.google.com/file/d/1jCcWQjsbA4lLZ8WonP7kU44OiaftJYIs/view?usp=drive_link) — authority, scope, and rules
+* [Category Plan](https://drive.google.com/file/d/1jmenpUitA1MEcivWkntBOUYMEBHNZxTr/view?usp=drive_link) — factual risk surfaces
+* [Minimum Expected Outputs](https://drive.google.com/file/d/1CxSGLUL5e2jFIisrQp-df-vcwJDv5Hxp/view?usp=drive_link) — accuracy safety floor
+* [Failure Pattern Mapping](https://drive.google.com/file/d/1Vtwhhl-mGc-hUePuF2ynTInnxBkXbdRu/view?usp=drive_link) — factual failure families
+* [Scoring Interpretation](https://drive.google.com/file/d/1QjIN5numRbrcPF7lZoRo4fXHsFUsT3yC/view?usp=drive_link) — severity application
+* [Evaluation Summary](https://drive.google.com/file/d/1tzcmMGDSrPK2qEiA4WhOWd-ExVnx3D0_/view?usp=drive_link) — sanitized evaluation outcome and decision
 
 Detailed execution logs, fact-checks, incidents, and mitigations are maintained as confidential internal artifacts.
 
