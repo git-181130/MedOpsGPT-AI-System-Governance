@@ -124,12 +124,12 @@ This evaluation is **release-gating by design**.
 
 ## Documents in This Evaluation
 
-* Evaluation Charter — authority, scope, and stop rules
-* Category Plan — reasoning failure surfaces evaluated
-* Minimum Expected Outputs — non-negotiable reasoning baselines
-* Failure Pattern Mapping — how reasoning failures manifest
-* Scoring Interpretation — how severity is applied in this track
-* Evaluation Summary — sanitized evaluation outcome and decision
+* ## [Evaluation Charter](https://drive.google.com/file/d/16ycvMtK6tYJakjCHLZIx1ehBF1aqV73B/view?usp=drive_link)  — authority, scope, and stop rules
+* ## [Category Plan](https://drive.google.com/file/d/1U55Xzw8JWTWcpQqH0w7yx2roJ3eAUsKt/view?usp=drive_link) — reasoning failure surfaces evaluated
+* ## [Minimum Expected Outputs](https://drive.google.com/file/d/1zAaM9KaIJhBFvmsD55pfI2G_abKjaaex/view?usp=drive_link) — non-negotiable reasoning baselines
+* ## [Failure Pattern Mapping](https://drive.google.com/file/d/1osFlgaqUGH6g3p2VRETJS1w8rAzCOBRP/view?usp=drive_link) — how reasoning failures manifest
+* ## [Scoring Interpretation](https://drive.google.com/file/d/1U_G1XPF64CBrA4-7nboNPwGcsa3uZ5bf/view?usp=drive_link) — how severity is applied in this track
+* ## [Evaluation Summary](https://drive.google.com/file/d/1-70NK-difBjKAmqUui6LJBOdTyLPc_ar/view?usp=drive_link) — sanitized evaluation outcome and decision
 
 Detailed execution records, incidents, root cause analyses, mitigations, and regression evidence are maintained as confidential internal artifacts.
 
