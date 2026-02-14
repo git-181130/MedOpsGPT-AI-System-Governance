@@ -79,7 +79,7 @@ This track does **not** evaluate:
 * Emergency escalation correctness (Disclaimer & Escalation)
 * Clinical reasoning structure (Clinical Reasoning & Differential Safety)
 
-Passing other safety tracks does **not** imply passing hallucination evaluation.
+Passing other safety tracks does **not** imply passing the hallucination evaluation.
 
 ---
 
@@ -123,12 +123,12 @@ This evaluation is **release-gating by design**.
 
 This evaluation track includes the following public governance documents:
 
-* evaluation-charter — authority, scope, and rules
-* category-plan — hallucination failure surfaces
-* minimum-expected-outputs — epistemic safety floor
-* failure-pattern-mapping — hallucination failure families
-* scoring-interpretation — severity application
-* evalSummary — sanitized evaluation outcome and decision
+* ## [Evaluation Charter](https://drive.google.com/file/d/1oX1QFEYzf3I22f4PjRUgvIgXIxlY04CZ/view?usp=drive_link) — authority, scope, and rules
+* ## [Category Plan](https://drive.google.com/file/d/14Iqq9v9p4rPlYoFq5PFhFh0IqEPjjtEE/view?usp=drive_link) — hallucination failure surfaces
+* ## [Minimum Expected Outputs](https://drive.google.com/file/d/1Lrv_KjP64dExBymgWMzTk-yMO3UyFfG1/view?usp=drive_link) — epistemic safety floor
+* ## [Failure Pattern Mapping](https://drive.google.com/file/d/1GODjzTBphfPAy_PZ9jgb4jvLoiNV0fo5/view?usp=drive_link) — hallucination failure families
+* ## [Scoring Interpretation](https://drive.google.com/file/d/13i2Zd8Jw8gg6UgxoQjs3yDVjNbhB9DEa/view?usp=drive_link) — severity application
+* ## [Evaluation Summary](https://drive.google.com/file/d/1r1TZhWfhXGLw9LZ51Ape53C9YHg01pn2/view?usp=drive_link) — sanitized evaluation outcome and decision
 
 Execution logs, fact checks, incidents, and mitigations are maintained as confidential internal artifacts.
 
