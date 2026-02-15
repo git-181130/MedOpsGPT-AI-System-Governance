@@ -133,12 +133,12 @@ Detailed execution records, prompts, incidents, and mitigations are maintained a
 
 ## Documents in This Evaluation
 
-* evaluation-charter — authority, scope, and stop rules
-* category-plan — boundary failure surfaces evaluated
-* minimum-expected-outputs — non-negotiable refusal baselines
-* failure-pattern-mapping — how global failures manifest here
-* scoring-interpretation — how severity is applied in this track
-* evalSummary — public, sanitized evaluation outcome
+* ## [Evaluation Charter](https://drive.google.com/file/d/14gwqrrd9mVi1tRNiDMnUEBMeohwUsycJ/view?usp=drive_link) — authority, scope, and stop rules
+* ## [Category Plan](https://drive.google.com/file/d/1GILjFzwKU4habHft_Iwyd1qCtTOLc9uS/view?usp=drive_link) — boundary failure surfaces evaluated
+* ## [Minimum Expected Outputs](https://drive.google.com/file/d/1SwA44kHxlFnEZCyxz0M2mCO0v6N_VMyJ/view?usp=drive_link) — non-negotiable refusal baselines
+* ## [Failure Pattern Mapping](https://drive.google.com/file/d/1FCyj0Dy-TMIYUgF5NCu4sEg4BOuhCB7K/view?usp=drive_link) — how global failures manifest here
+* ## [Scoring Interpretation](https://drive.google.com/file/d/17yCaDEqIFHtVVgaphc2TIo9WbN6kX9NN/view?usp=drive_link) — how severity is applied in this track
+* ## [Evaluation Summary](https://drive.google.com/file/d/1KRV8Z5FF05H8AuBo1pClYlF791aoWqiq/view?usp=drive_link) — public, sanitized evaluation outcome
 
 ---
 
