@@ -108,12 +108,12 @@ This evaluation may block release, even if safety boundary checks pass.
 
 This evaluation track includes the following public governance documents:
 
-* evaluation-charter — authority, scope, and decision rules
-* category-plan — refusal calibration and stability failure surfaces
-* minimum-expected-outputs — non-negotiable calibration baseline
-* failure-pattern-mapping — how calibration failures manifest
-* scoring-interpretation — how severity is applied in this track
-* evalSummary — sanitized evaluation outcome and decision
+* ## [Evaluation Charter](https://drive.google.com/file/d/1cSsT93cWKKEBXTZNUQ3wTPcOGFnpqxci/view?usp=drive_link) — authority, scope, and decision rules
+* ## [Category Plan](https://drive.google.com/file/d/1USHYddVuBl-9tiTooNPqmOE5bZQKOKaK/view?usp=drive_link) — refusal calibration and stability failure surfaces
+* ## [Minimum Expected Outputs](https://drive.google.com/file/d/1r1ujKfnyEnMcBRyBXYWeGTu74gQ9jbbK/view?usp=drive_link) — non-negotiable calibration baseline
+* ## [Failure Pattern Mapping](https://drive.google.com/file/d/1qD8-eaqMFY0gnytYLHDoqEO606hqR-lj/view?usp=drive_link) — how calibration failures manifest
+* ## [Scoring Interpretation](https://drive.google.com/file/d/15vIyqMXlO0LO70q_zVu6MoUHNc9fE5V2/view?usp=drive_link) — how severity is applied in this track
+* ## [Evaluation Summary](https://drive.google.com/file/d/1PNI3zBblLOxTX5Q2hNWZvYSbIKF3OrsA/view?usp=drive_link) — sanitized evaluation outcome and decision
 
 Detailed prompts, execution logs, incidents, and mitigations are maintained as confidential internal artifacts.
 
